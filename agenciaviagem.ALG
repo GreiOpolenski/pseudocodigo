@@ -1,6 +1,6 @@
 Algoritmo "Agencia de Viagens- Carcara"
-// Disciplina   : Modulo 2 - Algoritmos e lÛgica de ProgramaÁ„o
-// DescriÁ„o   : Cadastro e consulta de clientes e viagens
+// Disciplina   : Modulo 2 - Algoritmos e l√≥gica de Programa√ß√£o
+// Descri√ß√£o   : Cadastro e consulta de clientes e viagens
 // Autor(a)    : Greici Caroline Opolenski
 // Data entrega  : 11/07/2022
 Var
@@ -31,7 +31,7 @@ inicio
          escreval("Nome:")
          leia(nomeCliente[cont])
          escreval
-         escreval("EndereÁo:")
+         escreval("Endere√ßo:")
          leia(enderecoCliente[cont])
          escreval
          escreval("Telefone:")
@@ -53,8 +53,8 @@ inicio
                   cont <- 1000
                senao
                   limpatela
-                  escreval("**** OpÁ„o inexistente!!! ****")
-                  escreval("Por favor, digite uma opÁ„o v·lida")
+                  escreval("**** Op√ß√£o inexistente!!! ****")
+                  escreval("Por favor, digite uma op√ß√£o v√°lida")
                fimse
             fimse
          fimenquanto
@@ -85,7 +85,7 @@ inicio
          escreva("Nome: ")
          escreva(nomeCliente[cont])
          escreval
-         escreva("EndereÁo: ")
+         escreva("Endere√ßo: ")
          escreva(enderecoCliente[cont])
          escreval
          escreva("Telefone: ")
@@ -104,9 +104,9 @@ inicio
       leia (opcao)
       se (opcao <> "0") entao
          escreval
-         escreval ("**** OpÁ„o inexistente!!! ****")
-         escreval("Por favor, digite uma opÁ„o v·lida")
-         ("**** OpÁ„o inexistente!!! ****")
+         escreval ("**** Op√ß√£o inexistente!!! ****")
+         escreval("Por favor, digite uma op√ß√£o v√°lida")
+         ("**** Op√ß√£o inexistente!!! ****")
       fimse
    fimenquanto
    limpatela
@@ -124,10 +124,10 @@ inicio
       escreval("********************")
       se (idDestino[cont] = 0) entao
          idDestino[cont] <- cont
-         escreval("Empresa ·rea:")
+         escreval("Empresa √°rea:")
          leia(empresaDestino[cont])
          escreval
-         escreval("PaÌs:")
+         escreval("Pa√≠s:")
          leia(paisDestino[cont])
          escreval
          escreval("Cidade:")
@@ -146,8 +146,8 @@ inicio
                   cont <- 1000
                senao
                   limpatela
-                  escreval ("**** OpÁ„o inexistente!!! ****")
-                  escreval("Por favor, digite uma opÁ„o v·lida")
+                  escreval ("**** Op√ß√£o inexistente!!! ****")
+                  escreval("Por favor, digite uma op√ß√£o v√°lida")
                fimse
             fimse
          fimenquanto
@@ -176,10 +176,10 @@ inicio
          escreva("Id: ")
          escreva(idDestino[cont])
          escreval
-         escreva("Empresa ·rea: ")
+         escreva("Empresa √°rea: ")
          escreva(empresaDestino[cont])
          escreval
-         escreva("PaÌs: ")
+         escreva("Pa√≠s: ")
          escreva(paisDestino[cont])
          escreval
          escreva("Cidade: ")
@@ -195,8 +195,8 @@ inicio
       leia (opcao)
       se (opcao <> "1") entao
          escreval
-         escreval("**** OpÁ„o inexistente!!! ****")
-         escreval("Por favor, digite uma opÁ„o v·lida")
+         escreval("**** Op√ß√£o inexistente!!! ****")
+         escreval("Por favor, digite uma op√ß√£o v√°lida")
          escreval("**********************************")
       fimse
    fimenquanto
@@ -216,10 +216,13 @@ inicio
       enquanto (cont <= 100) faca
       se(idDestino[cont] = 0) entao
          cont <- cont + 1
-         escreval("Que dia vocÍ pretende viajar??")
+         escreval("Qual o nome do cliente??")
+         leia(nomeCliente[cont])
+         escreval
+         escreval("Que dia ele pretende viajar??")
          leia(dataDestino[cont])
          escreval
-         escreval("Para que paÌs??")
+         escreval("Para que pa√≠s??")
          leia(paisDestino[cont])
          escreval
          escreval("Para que cidade?")
@@ -232,15 +235,15 @@ inicio
             leia (opcao)
             se (opcao = "1") entao
                cont <- cont + 1
-               escreval ("*** Reserva em analÌse ***")
+               escreval ("*** Reserva em anal√≠se ***")
                limpatela
             senao
                se (opcao = "0") entao
                   cont <- 1000
                senao
                   limpatela
-                  escreval("**** OpÁ„o inexistente!!! ****")
-                  escreval("Por favor, digite uma opÁ„o v·lida")
+                  escreval("**** Op√ß√£o inexistente!!! ****")
+                  escreval("Por favor, digite uma op√ß√£o v√°lida")
                fimse
             fimse
          fimenquanto
@@ -258,7 +261,7 @@ Inicio
       escreval("**************************")
       escreval("**************************")
       escreval("Seja bem vindo(a)")
-      escreval("CARCAR¡ AG NCIA DE VIAGENS")
+      escreval("CARCAR√Å AG√äNCIA DE VIAGENS")
       escreval("**************************")
       escreval("**************************")
       escreval("1 - Clientes")
@@ -290,8 +293,8 @@ Inicio
                   consultarCliente()
                senao
                   se (opcao <> "0") entao
-                     escreval("**** OpÁ„o inexistente!!! ****")
-                     escreval("Por favor, digite uma opÁ„o v·lida")
+                     escreval("**** Op√ß√£o inexistente!!! ****")
+                     escreval("Por favor, digite uma op√ß√£o v√°lida")
                      escreval
                   fimse
                fimse
@@ -324,8 +327,8 @@ Inicio
                        reservaDestino()
                        senao
                             se (opcao <> "0") entao
-                            escreval ("**** OpÁ„o inexistente!!! ****")
-                            escreval("Por favor, digite uma opÁ„o v·lida")
+                            escreval ("**** Op√ß√£o inexistente!!! ****")
+                            escreval("Por favor, digite uma op√ß√£o v√°lida")
                             escreval
                      fimse
                   fimse
@@ -335,7 +338,7 @@ Inicio
             se (opcao = "0") entao
             senao
                escreval("******************")
-               escreval("Por favor, digite uma opÁ„o v·lida")
+               escreval("Por favor, digite uma op√ß√£o v√°lida")
                escreval
             fimse
          fimse
